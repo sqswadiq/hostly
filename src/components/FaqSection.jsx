@@ -35,7 +35,7 @@ const FaqSection = () => {
   };
 
   return (
-    <div className="max-w-6xl mx-auto px-5 py-10 bg-hostly-primary min-h-screen sm:px-4 md:px-5 lg:px-5 -mb-20 md:-mb-0">
+    <div className="max-w-6xl mx-auto px-5 py-10 bg-hostly-primary  sm:px-4 md:px-5 lg:px-5">
       <div className="text-left mb-10">
         <h1 className="text-3xl sm:text-4xl font-light text-gray-800 mb-2.5 font-sans">
           Frequently Asked
