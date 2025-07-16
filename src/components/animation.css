@@ -1,0 +1,18 @@
+/* index.css or animations.css */
+@keyframes pulse-zoom {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+.pulse-zoom {
+  animation: pulse-zoom 2s ease-in-out infinite;
+  transition: transform 0.3s ease-in-out;
+}
+
+.pulse-zoom:hover {
+  animation-play-state: paused;
+}
