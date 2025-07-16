@@ -44,7 +44,7 @@ export default function Navbar() {
         {/* Mobile Menu Button */}
         <button
           onClick={toggleMenu}
-          className="md:hidden text-hostly-accent transition-transform duration-700 ease-in-out"
+          className="md:hidden text-hostly-accent transition-transform duration-100 ease-in-out"
         >
           <div className="relative w-6 h-6">
             {/* Close Icon */}

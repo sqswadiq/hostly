@@ -4,6 +4,7 @@ import Facilities from "../components/Facility";
 import FaqSection from "../components/FaqSection";
 import FloatingCard from "../components/FloatingCard";
 import HeroSection from "../components/Herosection";
+import Pricing from "../components/PricingSection";
 import WhatsAppButton from "../components/Whatsapp";
 import WhyHostly from "../components/WhyHostly";
 
@@ -13,11 +14,12 @@ export default function Home() {
       <HeroSection/>
       <FloatingCard/>
       <WhyHostly/>
+      <Pricing/>
       <Facilities/>
       <Counter/>
       <WhatsAppButton/>
-      <FaqSection/>
       <About/>
+      <FaqSection/>
     </div>
   );
 }
