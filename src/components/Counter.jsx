@@ -56,7 +56,7 @@ export default function Counter() {
   return (
     <div
       ref={sectionRef}
-      className="bg-yellow-50 text-hostly-accent py-16 px-4 md:px-20"
+      className="bg-gradient-to-br from-yellow-50 to-orange-50 text-hostly-accent py-16 px-4 md:px-20"
     >
       <div className="w-64 md:w-full max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 text-center">
         <StatCard icon={<FaDoorOpen size={40} />} number={counts.rooms} label="Rooms" />

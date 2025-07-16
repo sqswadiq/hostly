@@ -15,7 +15,7 @@ const amenities = [
 
 export default function Facilities() {
   return (
-    <section className="bg-yellow-50 py-16 px-6 md:px-20">
+    <section className="bg-gradient-to-br from-yellow-50 to-orange-50 py-16 px-6 md:px-20">
       <div className="max-w-7xl mx-auto text-center">
         <h2 className="text-3xl text-center md:text-start md:text-4xl font-bold text-hostly-secondary mb-4">
           Facilities
