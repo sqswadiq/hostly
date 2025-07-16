@@ -5,9 +5,9 @@ export default function FloatingCard() {
         <p className="text-lg font-semibold text-black mb-4">
           Book your free visit today!
         </p>
-        <button className="pulse-zoom bg-hostly-secondary hover:bg-yellow-500 text-hostly-accent px-6 py-2 rounded-full font-medium transition">
+        <a href="https://wa.me/+919605572420" className="pulse-zoom bg-hostly-secondary hover:bg-yellow-500 text-hostly-accent px-6 py-2 rounded-full font-medium transition">
           Book a Free Visit
-        </button>
+        </a>
       </div>
     </div>
   );
