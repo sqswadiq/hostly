@@ -5,7 +5,12 @@ export default function FloatingCard() {
         <p className="text-lg font-semibold text-black mb-4">
           Book your free visit today!
         </p>
-        <a href="https://wa.me/+919605572420" className="pulse-zoom bg-hostly-secondary hover:bg-yellow-500 text-hostly-accent px-6 py-2 rounded-full font-medium transition">
+        <a
+          href="https://wa.me/919048582702?text=Hello%2C%20I%20want%20to%20book%20a%20free%20visit"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="pulse-zoom bg-hostly-secondary hover:bg-yellow-500 text-hostly-accent px-6 py-2 rounded-full font-medium transition"
+        >
           Book a Free Visit
         </a>
       </div>
