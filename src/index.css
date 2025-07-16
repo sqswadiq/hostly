@@ -35,3 +35,25 @@ body {
   scrollbar-color: #888 #f0f0f0;
 }
 
+
+
+/* whatsapp icon animation */
+@keyframes jump {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+/* Entire button jumps in circle state */
+.round-jump {
+  animation: jump 1.5s ease-in-out infinite;
+  animation-play-state: running;
+}
+
+/* Pause jump when hovered (expanded state) */
+.round-jump:hover {
+  animation-play-state: paused;
+}
