@@ -10,7 +10,7 @@ const FaqSection = () => {
     },
     {
       question: "Do you offer short-term stays?",
-      answer: "Yes! We offer daily stays at ₹299/day — perfect for students, events, interviews, or travel. Available for females only at this time."
+      answer: "Yes! We offer daily stays at ₹349/day — perfect for students, events, interviews, or travel. Available for females only at this time."
     },
     {
       question: "What's included in rent?",

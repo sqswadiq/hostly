@@ -1,5 +1,4 @@
 import About from "../components/About";
-import Counter from "../components/Counter";
 import Facilities from "../components/Facility";
 import FaqSection from "../components/FaqSection";
 import FloatingCard from "../components/FloatingCard";
@@ -17,7 +16,6 @@ export default function Home() {
       <WhyHostly/>
       <Pricing/>
       <Facilities/>
-      <Counter/>
       <WhatsAppButton/>
       <About/>
       <FaqSection/>
