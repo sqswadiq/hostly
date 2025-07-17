@@ -8,7 +8,7 @@ const cards = [
     icon: <BedDouble size={20} />,
     image: "/pricing/6bed.jpg",
     description: "Hygienic, regularly sanitized rooms for a healthy stay",
-    price: "₹5,000 / month / person",
+    price: "₹4,750 / month / person",
   },
   {
     id: 2,
@@ -24,7 +24,7 @@ const cards = [
     icon: <Clock size={20} />,
     image: "/pricing/short.jpg",
     description: "Perfect for travellers, No long term commitment.",
-    price: "₹299 / day",
+    price: "₹349 / day",
   },
 ];
 
