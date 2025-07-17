@@ -11,7 +11,7 @@ import WhyHostly from "../components/WhyHostly";
 
 export default function Home() {
   return (
-    <div>
+    <div id="home">
       <HeroSection/>
       <FloatingCard/>
       <WhyHostly/>

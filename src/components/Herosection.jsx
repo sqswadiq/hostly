@@ -1,6 +1,6 @@
 export default function HeroSection() {
   return (
-    <section className="relative h-96 md:h-[90vh] w-full overflow-hidden">
+    <section id="hero" className="relative h-96 md:h-[90vh] w-full overflow-hidden">
       {/* Background Image */}
       <img
         src="/landingbg.jpg"

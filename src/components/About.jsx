@@ -11,7 +11,7 @@ import {
 
 export default function About() {
   return (
-    <section className="bg-hostly-primary -mt-10 md:-mt-0">
+    <section id="about" className="bg-hostly-primary -mt-10 md:-mt-0">
       {/* Hero Section */}
       <div className="relative bg-gradient-to-br from-yellow-400 via-orange-400 to-yellow-400 text-hostly-primary">
         <div className="absolute inset-0 bg-black opacity-10"></div>

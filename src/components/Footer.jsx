@@ -3,7 +3,7 @@ import { MapPin, Phone, Mail, Globe, Instagram, MessageCircle } from 'lucide-rea
 
 const Footer = () => {
   return (
-    <footer className="bg-slate-900 text-hostly-primary">
+    <footer id="contact" className="bg-slate-900 text-hostly-primary">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-10">
 

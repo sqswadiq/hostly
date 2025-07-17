@@ -15,42 +15,60 @@ export default function Navbar() {
     >
       <div className="max-w-6xl mx-auto flex justify-between items-center">
         {/* Brand logo */}
-        <div className="text-2xl font-bold text-hostly-accent">
+        <a href="#hero" className="text-2xl font-bold text-hostly-accent">
           <img
             src="/hostlylogo.png"
             alt="logo"
-            className="h-7 md:h-10 w-auto"
+            className="h-7 md:h-10 w-auto cursor-pointer"
           />
-        </div>
+        </a>
 
         {/* Desktop Menu */}
-        <ul className="hidden md:flex gap-6 text-hostly-accent items-center md:text-lg ">
-          <li className="hover:text-hostly-secondary transition-colors cursor-pointer">
-            Home
-          </li>
-          <li className="hover:text-hostly-secondary transition-colors cursor-pointer">
-            Spaces
+        <ul className="hidden md:flex gap-6 text-hostly-accent items-center md:text-lg">
+          <li>
+            <a
+              href="#hero"
+              className="hover:text-hostly-secondary transition-colors cursor-pointer"
+            >
+              Home
+            </a>
           </li>
           <li>
-            <button className="pulse-zoom bg-hostly-secondary text-hostly-accent px-4 py-2 rounded-full w-full text-left">
-              Contact
-            </button>
+            <a
+              href="#space"
+              className="hover:text-hostly-secondary transition-colors cursor-pointer"
+            >
+              Spaces
+            </a>
           </li>
-          <li className="hover:text-hostly-secondary transition-colors cursor-pointer">
-            About
+          <li>
+            <a
+              href="#contact"
+              className="bg-hostly-secondary text-hostly-accent px-4 py-2 rounded-full text-left pulse-zoom inline-block"
+            >
+              Contact
+            </a>
+          </li>
+          <li>
+            <a
+              href="#about"
+              className="hover:text-hostly-secondary transition-colors cursor-pointer"
+            >
+              About
+            </a>
           </li>
         </ul>
 
         {/* Mobile Menu Button */}
         <button
           onClick={toggleMenu}
-          className="md:hidden text-hostly-accent transition-transform duration-100 ease-in-out"
+          className="md:hidden text-hostly-accent transition-transform duration-300 ease-in-out"
         >
           <div className="relative w-6 h-6">
             {/* Close Icon */}
             <MdClose
               size={24}
-              className={`absolute top-0 left-0 transition-all duration-700 ease-in-out ${
+              className={`absolute top-0 left-0 transition-all duration-300 ease-in-out ${
                 isOpen ? "opacity-100 scale-100" : "opacity-0 scale-90"
               }`}
             />
@@ -58,7 +76,7 @@ export default function Navbar() {
             {/* Menu Icon */}
             <CgMenuRight
               size={24}
-              className={`absolute top-0 left-0 transition-all duration-700 ease-in-out ${
+              className={`absolute top-0 left-0 transition-all duration-300 ease-in-out ${
                 !isOpen ? "opacity-100 scale-100" : "opacity-0 scale-90"
               }`}
             />
@@ -68,14 +86,38 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <ul className="md:hidden flex flex-col gap-4 bg-hostly-primary mt-2 px-4 py-4 text-hostly-accent font-medium ">
-          <li className="hover:text-hostly-secondary cursor-pointer">Home</li>
-          <li className="hover:text-hostly-secondary cursor-pointer">Spaces</li>
-          <li className="hover:text-hostly-secondary cursor-pointer">About</li>
+        <ul className="md:hidden flex flex-col gap-4 bg-hostly-primary mt-2 px-4 py-4 text-hostly-accent font-medium">
           <li>
-            <button className="bg-hostly-secondary hover:bg-yellow-500 text-hostly-accent  px-4 py-2 rounded-full transition-all text-left ms-[-8px]">
+            <a
+              href="#hero"
+              className="hover:text-hostly-secondary transition-colors"
+            >
+              Home
+            </a>
+          </li>
+          <li>
+            <a
+              href="#space"
+              className="hover:text-hostly-secondary transition-colors"
+            >
+              Spaces
+            </a>
+          </li>
+          <li>
+            <a
+              href="#about"
+              className="hover:text-hostly-secondary transition-colors"
+            >
+              About
+            </a>
+          </li>
+          <li>
+            <a
+              href="#contact"
+              className="bg-hostly-secondary hover:bg-yellow-500 text-hostly-accent px-4 py-2 rounded-full transition-all inline-block text-left ms-[-8px]"
+            >
               Contact
-            </button>
+            </a>
           </li>
         </ul>
       )}

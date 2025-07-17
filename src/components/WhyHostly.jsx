@@ -45,10 +45,10 @@ export default function WhyHostly() {
         <div className="flex-1">
           {/* Mobile: Horizontal Scroll Slider */}
           <div className="flex md:hidden gap-4 overflow-x-auto snap-x snap-mandatory scroll-smooth custom-scrollbar">
-            {[1, 2, 3, 4].map((num) => (
+            {[1, 2, 3, 4, 5, 6].map((num) => (
               <img
                 key={num}
-                src={`/whyimg${num}.jpg`}
+                src={`/whyimg/whyimg${num}.jpg`}
                 alt={`Card ${num}`}
                 loading="lazy"
                 className="min-w-[70%] h-52 object-cover rounded-xl snap-center mb-2"
@@ -66,14 +66,14 @@ export default function WhyHostly() {
           >
             <div>
               <Motion.img
-                src="/whyimg1.jpg"
+                src="/whyimg/whyimg1.jpg"
                 alt="Card 1"
                 loading="lazy"
                 className="rounded-xl w-full h-52 object-cover will-change-transform"
                 variants={fadeInUp}
               />
               <Motion.img
-                src="/whyimg2.jpg"
+                src="/whyimg/whyimg2.jpg"
                 alt="Card 2"
                 loading="lazy"
                 className="rounded-xl w-full h-52 object-cover mt-4 will-change-transform"
@@ -82,14 +82,14 @@ export default function WhyHostly() {
             </div>
             <div className="mt-10">
               <Motion.img
-                src="/whyimg3.jpg"
+                src="/whyimg/whyimg3.jpg"
                 alt="Card 3"
                 loading="lazy"
                 className="rounded-xl w-full h-52 object-cover will-change-transform"
                 variants={fadeInUp}
               />
               <Motion.img
-                src="/whyimg4.jpg"
+                src="/whyimg/whyimg4.jpg"
                 alt="Card 4"
                 loading="lazy"
                 className="rounded-xl w-full h-52 object-cover mt-4 will-change-transform"

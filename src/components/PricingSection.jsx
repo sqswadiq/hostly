@@ -68,7 +68,7 @@ export default function Pricing() {
   }, [isMobile]);
 
   return (
-    <section className="bg-hostly-primary py-16 px-4 md:px-10">
+    <section id="space" className="bg-hostly-primary py-16 px-4 md:px-10">
       {/* Section Header */}
       <div className="text-start md:text-center mb-12">
         <h1 className="text-4xl md:text-5xl font-bold text-black mb-4">
